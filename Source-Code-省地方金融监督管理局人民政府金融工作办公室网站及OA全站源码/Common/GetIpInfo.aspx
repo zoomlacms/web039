@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Common_GetIpInfo, App_Web_0r23hr4s" enableviewstatemac="false" enableEventValidation="false" viewStateEncryptionMode="Never" %>

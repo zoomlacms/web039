@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>293</LabelID>
+    <LabelName>全站头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>静态标签</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="homebgimg"&gt;&lt;img src="{$CssDir/}Images/baiyuntop.png" alt="" /&gt;&lt;/div&gt;
+&lt;div class="home_topbox"&gt;
+&lt;div class="container"&gt;
+&lt;div class="home_top"&gt;
+&lt;a href="javascript:window.external.addFavorite('{$SiteURL/}','{$SiteName/}');"&gt;&lt;i class="fa fa-clipboard"&gt;&lt;/i&gt; 收藏本站 &lt;/a&gt;&lt;span&gt; | &lt;/span&gt;&lt;a href="tel:0793-8888888"&gt;&lt;i class="fa fa-user"&gt;&lt;/i&gt; 联系我们 &lt;/a&gt;&lt;span &gt; | &lt;/span&gt; &lt;a href="#"&gt;网站地图 &lt;/a&gt;&lt;span&gt; | &lt;/span&gt;&lt;a href="#"&gt;[ 登录入口 ]&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="home_logo"&gt;&lt;a href="#"&gt;&lt;embed src="{$CssDir/}Images/logo.svg" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="home_trpic"&gt;&lt;img src="{$CssDir/}images/ditu.png" alt="" /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- home_topbox end --&gt;
+
+&lt;div class="container"&gt;
+&lt;nav class="navbar navbar-default" id="home_nav"&gt;
+&lt;img src="{$CssDir/}Images/navbg.png" alt="" /&gt;
+&lt;!-- Brand and toggle get grouped for better mobile display --&gt;
+&lt;div class="navbar-header"&gt;
+&lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"&gt;
+&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
+&lt;div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"&gt;
+&lt;ul class="nav navbar-nav"&gt;
+&lt;li&gt;&lt;a href="/"&gt;首页&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;|&lt;/li&gt;
+&lt;li id="menu4"&gt;&lt;a href="{ZL:GetNodeLinkUrl(4)/}"&gt;工作动态&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;|&lt;/li&gt;
+&lt;li id="menu5"&gt;&lt;a href="{ZL:GetNodeLinkUrl(5)/}"&gt;金融资讯&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;|&lt;/li&gt;
+&lt;li id="menu6"&gt;&lt;a href="{ZL:GetNodeLinkUrl(6)/}"&gt;通知公示&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;|&lt;/li&gt;
+&lt;li id="menu14"&gt;&lt;a href="{ZL:GetNodeLinkUrl(14)/}"&gt;政务公开&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;|&lt;/li&gt;
+&lt;li id="menu9"&gt;&lt;a href="{ZL:GetNodeLinkUrl(9)/}"&gt;政策法规&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;|&lt;/li&gt;
+&lt;li id="menu4"&gt;&lt;a href="{ZL:GetNodeLinkUrl(8)/}"&gt;互动交流&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;|&lt;/li&gt;
+&lt;li id="menu1"&gt;&lt;a href="{ZL:GetNodeLinkUrl(1)/}"&gt;便民服务&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;!-- /.navbar-collapse --&gt;
+&lt;/nav&gt;
+&lt;/div&gt;
+&lt;!-- home_nav end --&gt;
+
+&lt;div class="container"&gt;
+&lt;div class="home_search"&gt;
+&lt;div class="search_l"&gt;今天是2016年3月16日  星期三&lt;/div&gt;
+&lt;div class="search_r"&gt;
+&lt;form action="/Search/SearchList.aspx" target="_blank" method="get"&gt;
+&lt;div class="input-group"&gt;
+&lt;input type="text" class="form-control" name="keyword" placeholder="搜索" /&gt;
+&lt;span class="input-group-btn"&gt;
+&lt;button class="btn btn-default" type="submit"&gt;站内搜索&lt;/button&gt;
+&lt;/span&gt;
+&lt;/div&gt;&lt;!-- /input-group --&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- home_search end --&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue />
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>
